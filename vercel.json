@@ -1,6 +1,11 @@
 {
   "redirects": [
     {
+      "source": "/",
+      "destination": "https://metal-lab.gitbook.io/metallab",
+      "permanent": true
+    },
+    {
       "source": "/:path*",
       "destination": "https://metal-lab.gitbook.io/metallab/:path*",
       "permanent": true
